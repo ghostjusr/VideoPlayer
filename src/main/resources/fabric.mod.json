@@ -3,9 +3,9 @@
 	"id": "videoplayer",
 	"version": "${version}",
 	"name": "VideoPlayer",
-	"description": "A mod that allows playing videos by constantly setting text displays with command blocks.",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"ghostjusr"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,18 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"github.ghostjusr.videoplayer.VideoPlayer"
-		],
-		"client": [
-			"github.ghostjusr.videoplayer.VideoPlayerClient"
+			"com.github.ghostjusr.videoplayer.VideoPlayer"
 		]
 	},
 	"mixins": [
-		"videoplayer.mixins.json",
-		{
-			"config": "videoplayer.client.mixins.json",
-			"environment": "client"
-		}
+		"videoplayer.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
