@@ -11,4 +11,3 @@ Use !setup [<coords>] [<direction>] to setup the command blocks and use !play <f
 **This mod requires OP (Or at least /fill permissions) to work.
 
 ## Commands
-[comment]: !setup [-b] [<coords>] [<direction>] [<height>] [<offset>] - Set up the command blocks
